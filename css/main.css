@@ -1,0 +1,696 @@
+body {
+    font-family: Georgia;
+
+}
+
+body a {
+    color: white;
+!important;
+
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding: 0px;
+}
+
+/*=================================*/
+/*=======Header====================*/
+/*=================================*/
+
+.headerPage {
+    background-color: #39404c;
+}
+
+.pageNav .page a {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.pageNav .page {
+    padding: 0px;
+}
+
+.pageNav .page > li {
+    display: inline-block;
+    list-style: none;
+}
+
+.pageNav .page > li:before {
+    content: "/";
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #e0e0e0;
+}
+
+.pageNav .page > li:first-child:before {
+    content: "";
+}
+
+.pageNav .page {
+    float: right;
+    margin-right: 5px;
+}
+
+.brend {
+    position: relative;
+    width: 300px;
+    height: 95px;
+    background: url("../image/home/brend.png") no-repeat;
+  }
+
+.brend p {
+    position: absolute;
+    margin: 0px;
+    font-size: 16px;
+    color: #e7ca9f;
+    text-transform: uppercase;
+    font-weight: 500;
+    bottom: -3px;
+    right: 13px;
+}
+
+.daly p {
+    margin: 0px;
+
+    color: #9a8b75;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.phone {
+    margin-left: 5px;
+}
+
+.phone p {
+    margin: 0px;
+    color: #8a8a8a;
+}
+
+.phone p:first-child {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.phone p {
+    font-size: 38px;
+
+}
+
+.headerPage .searchAccount {
+    float: right;
+    margin-top: 35px;
+}
+
+.sb-search {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    min-width: 40px;
+    height: 35px;
+    float: right;
+    overflow: hidden;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    transition: width 0.3s;
+    -webkit-backface-visibility: hidden;
+}
+
+.sb-search-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    z-index: 10;
+    padding: 0px 40px 0px 15px;
+    font-family: inherit;
+    font-size: 20px;
+    color: white;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #71767e;
+    background: none;
+}
+
+.sb-search-input:focus {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+input[type="search"].sb-search-input {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+.formSearch {
+    width: 265px;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.sb-icon-search,
+.sb-search-submit {
+    width: 40px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+
+}
+
+.sb-search-submit {
+    background: transparent; /* IE needs this */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: 90;
+
+}
+
+.sb-icon-search {
+    background: url("../image/icon/search.png") 50% no-repeat;
+    z-index: 10;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    opacity: 0.5;
+}
+
+.sb-icon-search:hover {
+    opacity: 0.8;
+}
+
+.iconAccount {
+    background: url("../image/icon/acount.png") no-repeat;
+    height: 18px;
+}
+
+.iconBag {
+    background: url("../image/icon/bag.png") no-repeat;
+ }
+
+.account a {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-emphasis-position: right;
+    vertical-align: -11px;
+    padding-left: 28px;
+    padding-bottom: 5px;
+}
+
+.account a:first-child {
+    margin-right: 15px;
+}
+
+.itemNav {
+
+    margin-top: 65px;
+}
+
+.itemNav a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 35px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.itemNav ul li:first-child a {
+
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.itemNav ul {
+    padding: 0;
+
+}
+
+.itemNav ul li {
+    display: inline-block;
+
+}
+
+.itemNav ul li:first-child:before {
+    background-image: none;
+}
+
+.itemNav ul li:before {
+    content: "";
+    background: url("../image/icon/diamon.png") no-repeat 0 0;
+    width: 24px;
+    height: 18px;
+    position: absolute;
+
+}
+
+.itemNav .navbar-collapse {
+    padding: 0;
+}
+
+.itemNav .icon-bar {
+    background-color: white;
+}
+
+.itemNav .navbar-toggle {
+    border-color: #2a313d;
+}
+
+/*******HEADER-END****************/
+
+
+/*=================================*/
+/*=======Bredcramb=================*/
+/*=================================*/
+.wrapperBreadcrumd{
+    background-color: #5f3979;
+}
+.breadcrumbJew header h3{
+    font-size: 22px;
+    color: #f1f1f2;
+    line-height: 24px;
+    margin: 10px 0;
+    padding-left: 5px;
+}
+.breadcrumbJew ul{
+    background: none;
+    padding: 0;
+    margin:0 0 10px 5px;
+    list-style: outside none none;
+}
+.breadcrumbJew ul>li{
+    display: inline-block;
+    line-height: 15px;
+}
+.breadcrumbJew  li + li::before {
+    color: #d8d8d8;
+    content: "/ ";
+    padding: 0 5px;
+}
+.breadcrumbJew ul>li a{
+    text-decoration: none;
+    color: #d8d8d8;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+.breadcrumbJew li.active{
+    color:#919191;
+}
+
+
+
+/******breadcrumb*********************/
+.wrapperFooter {
+    background-color: #39404c;
+    padding-top: 65px;
+}
+
+.footerLinks ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.footerLinks ul li a {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #8f8f8f;
+}
+
+/*----------------------------*/
+/***** Newsletter Sign-Up *****/
+/*----------------------------*/
+
+.nsu-form {
+    position: relative;
+    max-width: 270px;
+}
+
+.nsu-form p {
+    padding: 0px !important;
+}
+
+.nsu-form input {
+    border: none;
+}
+
+.nsu-form .nsu-field {
+
+    max-width: 270px;
+    width: 100%;
+    padding: 0px 15px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: none;
+    font-size: 14px;
+    color: white;
+    outline: none;
+    height: 40px;
+    font-family: RobotoRegular;
+}
+
+.nsu-form .nsu-field :focus {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.nsu-form .nsu-submit {
+
+    padding: 12px 25px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    opacity: 0.8;
+    color: #39404c;
+    border-radius: 20px;
+    float: right;
+    margin-top: 15px;
+}
+
+.nsu-form .nsu-submit:hover {
+    opacity: 1;
+}
+
+.nsu-form label {
+    display: none;
+}
+
+input[type="email"] {
+    -webkit-appearance: none;
+}
+/*********Newsletter Sign-Up-END***********/
+
+.newsletter h3, .footerIcons h3 {
+    text-transform: uppercase;
+    color: white;
+    margin: 0px 0px 25px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.newsletter p {
+    font-size: 14px;
+    font-family: RobotoRegular;
+    color: white;
+    margin-bottom: 20px;
+    padding-right: 100px;
+}
+
+.iconsGroup a {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin: 2px;
+
+}
+
+.iconsGroup a i {
+    width: 11px;
+    font-size: 23px;
+    padding: 11px 14px;
+    color: white;
+}
+
+.iconsGroup a:nth-child(1) {
+    background-color: #3660a0;
+}
+
+.iconsGroup a:nth-child(2) {
+    background-color: #2daae1;
+}
+
+.iconsGroup a:nth-child(3) {
+    background-color: #dc5443;
+}
+
+.iconsGroup a:nth-child(4) {
+    background-color: #cb2127;
+}
+
+.iconsGroup a:nth-child(1) i {
+
+    padding: 10px 15px;
+}
+
+.footerIcons h3 {
+    margin-bottom: 35px;
+}
+
+.footerAbout > div {
+    padding: 0px;
+}
+
+.footerAbout p {
+    margin: 0;
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-right: 20px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    margin-bottom: 150px;
+}
+
+.footerAbout p a {
+    color: white;
+}
+
+
+.footerAbout {
+    margin-top: 165px;
+}
+
+/*BootstrapScin*/
+.thumbnail {
+    background: none;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+}
+
+.thumbnail .caption {
+    padding: 0px;
+}
+
+.thumbnail .caption p {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn-default {
+    background: none #5f3979;
+    border: medium none;
+    color: white;
+    text-shadow: none;
+}
+
+.btn-primary {
+    background: none #454647;
+    border: medium none;
+    color: white;
+    text-shadow: none;
+}
+
+.btn {
+
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    line-height: 20px;
+    padding: 10px 25px 10px 40px;
+
+}
+
+.btn-sm {
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: lowercase;
+}
+
+.btn i {
+    margin-left: 10px;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+    background-color: #8c66a6;
+    color: whitesmoke;
+}
+
+.call {
+    background-color: #dcc19a;
+}
+
+.call p {
+    margin: 0px;
+    line-height: 30px;
+    padding: 20px 15px;
+    float: right;
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.call p strong {
+    font-weight: 700;
+}
+
+
+
+
+.scrollTop {
+    background: url("../image/home/arrowTop.png") no-repeat;
+    width: 40px;
+    height: 20px;
+    bottom: 50px;
+    right: 20%;
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    opacity: 1;
+    outline: none;
+
+}
+
+.scrollTop:focus {
+    outline: none;
+}
+
+/*===========LOGIN=============================*/
+
+.modal-dialog {
+    width: 270px;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-dialog .form-group {
+
+    margin: 0 0 10px;
+}
+
+.modal-body {
+
+    padding: 15px 25px 40px;
+}
+
+.modal-dialog .link_group a {
+    display: block;
+    color: #454647;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.modal-dialog .form-control {
+    border-radius: 20px;
+    height: 38px;
+    padding-right: 30px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.modal-dialog .form-control-feedback {
+    color: #dddddd;
+}
+
+.modal-dialog .btn-default {
+    line-height: 10px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #454647;
+}
+
+.modal-header {
+    padding: 60px 25px 0;
+}
+
+.modal-header a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.modal-header a:hover {
+    color: white;
+}
+
+.modal-header a span {
+    display: inline-block;
+    text-align: center;
+}
+
+.modal-header a span:nth-child(1) {
+    width: 46px;
+    border-right: 1px solid white;
+    height: 46px;
+    margin-right: 30px;
+
+}
+
+.modal-header a span i {
+    font-size: 30px;
+    color: white;
+    margin-top: 5px;
+}
+
+.modal-header a:nth-child(1) {
+    background-color: #3b5998;
+
+}
+
+.modal-header a:nth-child(2) {
+    background-color: #df4a32;
+
+}
+
+/********example*******************/
+
+.rect{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    cursor: pointer;
+}

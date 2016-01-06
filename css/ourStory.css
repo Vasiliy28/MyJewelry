@@ -1,0 +1,287 @@
+.wrapperAboutUs {
+    color: #777;
+    text-transform: none;
+    margin-bottom: 25px;
+    font-family: RobotoRegular;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.wrapperAboutUs p {
+    margin-bottom: 30px;
+}
+
+.wrapperAboutUs header h1 {
+    font-family: Georgia;
+    height: 38px;
+    color: #454647;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 38px;
+    margin: 50px 10px;
+}
+
+.ourStory figure {
+    margin-bottom: 45px;
+
+}
+.ourStory figure img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.ourStory article:nth-child(2) {
+    padding: 0 10px;
+}
+
+.ourStory h5 {
+    text-transform: uppercase;
+    color: #24292f;
+    line-height: 24px;
+}
+
+.ourStory article:nth-child(3) {
+    padding-left: 30px;
+}
+
+.ourStory article:nth-child(3) p {
+    margin-top: -10px;
+}
+
+.ourStory ul {
+    margin-top: 49px;
+    padding-left: 20px;
+    list-style-image: url("../image/icon/arrow1.png");
+    margin-bottom: 40px;
+}
+
+.ourHistory > article {
+    padding-left: 20px;
+}
+
+.ourHistory dd {
+    margin-left: 30px;
+    margin-top: -22px;
+    padding-left: 30px;
+    line-height: 22px;
+    margin-bottom: 35px;
+}
+
+.ourHistory dt {
+
+    color: #5f3979;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.ourHistory h1 {
+    margin-left: 25px;
+}
+
+.wrapperTeam {
+    background: url("../image/ourStory/backgroudContent.jpg") no-repeat center;
+    background-size: 100% 100%;
+    padding-bottom: 45px;
+}
+
+.ourTeam figure {
+    padding: 0 5px;
+}
+.ourTeam figure img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.ourTeam figcaption {
+    padding: 0 5px;
+}
+
+.ourTeam figcaption h3 {
+    color: #9c73b8;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 44px;
+    margin-bottom: 20px;
+}
+
+.ourTeam figcaption p {
+    color: white;
+    letter-spacing: 0.4px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.ourTeam header h1 {
+    color: #a1a0a0;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 65px 20px 50px 11px;
+}
+
+.contentDown {
+    margin-bottom: 20px;
+}
+
+.angelique div {
+    padding: 30px 50px;
+    border-bottom: 1px solid #ededed;
+}
+
+.angelique div p {
+    margin: 0;
+    color: #777;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 7px;
+
+}
+
+.wrapperDown header h1 {
+    color: #454647;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 56px;
+    margin-top: 62px;
+    margin-bottom: 5px;
+}
+
+.angelique {
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 35px;
+}
+
+.angelique .speech {
+    background: url("../image/icon/speech.png") no-repeat 0 33px;
+}
+.angelique .shop {
+    background: url("../image/icon/shop.png") no-repeat 0 33px;
+
+}
+
+.angelique .openEmail {
+    background: url("../image/icon/openEmail.png") no-repeat 0 33px;
+
+}
+
+.testimonials {
+    padding-left: 20px;
+}
+
+.testimonials figure {
+    padding: 0;
+    margin-top: 25px;
+}
+
+.testimonials figure img {
+    float: left;
+
+    margin-right: 30px;
+}
+
+.testimonials figcaption p {
+    color: #777;
+    margin-bottom: 0;
+}
+
+.testimonials figcaption p:nth-child(2) {
+    text-align: right;
+    color: #24292f;
+    font-family: Georgia;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+
+.testimonials figcaption p:nth-child(3) {
+    text-align: right;
+    color: #5f3979;
+
+}
+/************example***********/
+
+figure.myEffect{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+figure.myEffect figcaption{
+    backface-visibility: hidden;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+figure.myEffect img{
+    display: block;
+    max-width: 100%;
+    min-height: 100%;
+
+    position: relative;
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+figure.myEffect figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    content: '';
+}
+figure.myEffect h3 {
+    margin: 20% 10% 10px ;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+    text-decoration: underline;
+    opacity: 0;
+}
+figure.myEffect p{
+    margin: 0 10%;
+    text-align: center;
+}
+figure.myEffect figcaption::before,
+figure.myEffect p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+
+}
+
+figure.myEffect:hover h3 {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    opacity: 1;
+}
+
+figure.myEffect:hover figcaption::before,
+figure.myEffect:hover p {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.myEffect:hover img {
+    opacity: 0.4;
+
+}

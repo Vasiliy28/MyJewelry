@@ -1,0 +1,504 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    .itemNav a {
+        margin-left: 25px;
+        margin-right: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .carouselHomePage .thumbnail img {
+        padding: 0 5px;
+    }
+
+    .picture {
+        min-height: 584px;
+    }
+
+    figure.pictureLeft figcaption {
+        padding: 60px 45px 30px;
+        max-height: 246px;
+
+    }
+
+    figure.pictureLeft:hover img {
+        -webkit-transform: translate3d(0, 245px, 0);
+        transform: translate3d(0, 245px, 0);
+
+    }
+
+    figure.pictureLeft figcaption p:nth-child(1) {
+        font-size: 42px;
+
+    }
+
+    figure.pictureRight {
+        min-height: 584px;
+    }
+
+    figure.pictureRight img {
+        -webkit-transform: translate3d(0, 140px, 0);
+        transform: translate3d(0, 140px, 0);
+
+    }
+
+    figure.pictureRight figcaption {
+
+        max-height: 140px;
+        padding: 15px 5px 5px;
+
+    }
+
+    figure.pictureRight figcaption p:nth-child(2) {
+
+        font-size: 38px;
+
+    }
+
+    .wrapperMainPictures article:nth-child(3) .picture {
+        margin-left: 10px;
+    }
+
+    .wrapperMainPictures article:nth-child(1) .picture {
+        margin-right: 10px;
+    }
+
+    figure.pictCentre figcaption {
+        padding: 75px 50px 5px 35px;
+    }
+
+    figure.pictCentre .hiddenP p:first-child {
+        width: 75%;
+    }
+
+    figure.pictCentre .hiddenP p:nth-of-type(2) {
+        width: 55%;
+    }
+
+    figure.pictCentre .hiddenP p:nth-of-type(3) {
+        width: 100%;
+    }
+
+    .jewelleryService figure img,
+    .ourService figure img {
+        margin: 0 auto;
+    }
+
+    .jewelleryService,
+    .ourService {
+        padding: 5px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+    .itemNav a {
+        font-size: 15px;
+        padding-right: 3px;
+    }
+
+    .itemNav {
+        margin-top: 20px;
+    }
+
+    .carouselHomePage .caption {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+
+    .modalForItem {
+        width: 70%;
+    }
+
+    .wrapperMainPictures article:nth-child(3) .picture {
+        margin-left: auto;
+    }
+
+    .picture {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    figure.pictureLeft figcaption {
+        max-height: 400px;
+    }
+
+    figure.pictureLeft img {
+        transition: padding-top 0.8s;
+    }
+
+    figure.pictureLeft:hover img {
+        -webkit-transform: translate3d(0, 100px, 0);
+        transform: translate3d(0, 100px, 0);
+        padding-top: 207px;
+        -webkit-transition: padding-top 0.8s;
+        transition: padding-top 0.8s;
+    }
+
+    figure.pictureLeft img {
+        max-height: 680px;
+    }
+
+    figure.pictureRight {
+        min-height: 480px;
+        margin-top: 110px;
+        -webkit-transition: min-height 0.8s;
+        transition: min-height 0.8s;
+    }
+
+    figure.pictureRight img {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+
+    }
+
+    figure.pictureRight figcaption {
+        max-height: 200px;
+        padding: 35px 5px 5px;
+
+    }
+
+    figure.pictureRight figcaption p:nth-child(2) {
+        font-size: 42px;
+    }
+
+    figure.pictureRight:hover {
+        min-height: 680px;
+        -webkit-transition: min-height 0.8s;
+        transition: min-height 0.8s;
+    }
+
+    .shopping {
+        margin-top: 30px;
+    }
+
+    .delivery .shopping p:nth-child(2) {
+        font-size: 42px;
+        margin-top: 10px;
+    }
+
+    .wrapperTopContent {
+        padding-bottom: 10px;
+    }
+
+    .downContent > div:nth-child(3) article.ourService img {
+        float: left;
+        margin: 5px 20px 5px 5px;
+    }
+
+    .downContent > div:nth-child(3) article.ourService figure {
+
+        overflow: auto;
+
+    }
+
+    .downContent > div:nth-child(3) article.ourService h5 {
+
+        margin: 0px;
+
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+
+    .phoneDaly {
+        width: 400px;
+        padding-left: 45px;
+    }
+
+    .brend, .phoneDaly {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .itemNav ul li {
+        display: block;
+        padding: 10px 10px 10px 30px;
+    }
+
+    .itemNav ul li:first-child::before {
+        content: "";
+        background: url("../image/icon/diamon.png") no-repeat 0 0;
+        width: 24px;
+        height: 18px;
+        position: absolute;
+    }
+
+    .itemNav a, .itemNav ul li:first-child a {
+        font-size: 20px;
+        margin-left: 35px;
+        margin-right: 5px;
+        padding: 0;
+
+    }
+
+    .itemNav ul li:hover {
+        background-color: #535a66;
+    }
+
+    .sb-search {
+
+        width: 0%;
+
+    }
+
+    .sb-search-input {
+
+        border: none;
+
+    }
+
+    .sb-search-submit {
+
+        z-index: -1;
+
+    }
+
+    .sb-icon-search {
+
+        z-index: 90;
+
+    }
+
+    .sb-search.sb-search-open,
+    .no-js .sb-search {
+        width: 100%;
+
+    }
+
+    .sb-search.sb-search-open .sb-icon-search,
+    .no-js .sb-search .sb-icon-search {
+
+        z-index: 11;
+    }
+
+    .sb-search.sb-search-open .sb-search-input,
+    .no-js .sb-search .sb-search-input {
+
+        border: 1px solid #71767e;
+    }
+
+    .sb-search.sb-search-open .sb-search-submit,
+    .no-js .sb-search .sb-search-submit {
+        z-index: 90;
+    }
+
+    .carouselHomePage {
+        margin: 0 30px;
+    }
+
+    .modalForItem h2 {
+        color: #917a58;
+        text-align: center;
+    }
+
+    figure.pictCentre {
+        margin-top: 120px;
+    }
+
+    figure.pictureRight {
+        margin-top: 30px;
+        margin-left: auto;
+    }
+
+    .wrapperMainPictures article:nth-child(1) .picture {
+        margin-right: auto;
+    }
+
+    .delivery {
+        margin: 0 10px;
+
+    }
+
+    .delivery .specialCards {
+        margin: 20px auto;
+        max-width: 380px;
+    }
+
+    .wrapperWelcomeText {
+        padding: 20px;
+    }
+
+    .present div:first-child ul {
+        max-width: 120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .welcomeText h1 {
+        margin-top: 50px;
+        font-size: 62px;
+    }
+
+    .wrapperFooter {
+        padding: 25px;
+    }
+
+    .footerAbout {
+        margin-top: 35px;
+    }
+
+    .footerAbout p {
+        margin-bottom: 35px;
+    }
+
+    .newsletter p {
+        padding-right: 0px;
+    }
+
+    .headerPage {
+        padding: 20px 20px 0;
+    }
+
+    .itemNav {
+        margin: auto -20px;
+    }
+
+    .ourStory, .ourHistory {
+        padding: 15px;
+    }
+
+    .ourStory figure {
+        float: left;
+        margin: 10px 10px 15px 0;
+    }
+
+    .ourStory h5 {
+        margin: 0 0 10px;
+    }
+
+    .ourStory article:nth-child(3) {
+        padding-left: 0px;
+    }
+
+    .ourStory article:nth-child(2) {
+        padding: 0px;
+    }
+
+    .ourStory ul {
+        margin: 20px 0;
+    }
+
+    .ourTeam figcaption {
+        max-width: 55%;
+        margin: 0 auto;
+    }
+
+    .testimonials figure {
+        margin: 25px 20px 40px;
+    }
+
+    .jewelleryService,
+    .ourService {
+        padding: 5px 20px;
+    }
+    article.ourService img {
+        float: left;
+        margin: 5px 20px 5px 5px;
+    }
+
+    article.ourService figure {
+        overflow: auto;
+    }
+
+    article.ourService h5 {
+        margin: 0px;
+    }
+}
+@media only screen and (max-width: 560px){
+
+
+    article.ourService header h2 {
+        margin-top: 0;
+        line-height: 30px;
+    }
+    .wrapperDownContent{
+        padding-bottom: 20px;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .phoneDaly {
+
+        padding-left: 0;
+    }
+
+    .picture {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .wrapperMainPictures article:nth-child(1) .picture {
+        margin-right: 10px;
+    }
+
+    .ourStory figure {
+        float: none;
+        margin: 0 0 15px;
+    }
+
+    .ourStory figure img {
+
+        margin: 0 auto;
+    }
+
+    .ourTeam figcaption {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .downContent > div:nth-child(n) article.ourService img {
+        float: none;
+        margin: 0;
+    }
+    .downContent > div:nth-child(n) article.ourService h5 {
+        margin-top: 15px;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 360px) {
+    .welcomeText h1 {
+        margin-top: 50px;
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .footerIcons h3 {
+        margin: 20px 0 15px;
+    }
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 767px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+    .phoneDaly {
+        margin-left: 40px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}

@@ -1,0 +1,238 @@
+
+body, html, .container {
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    color: #74777b;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.color-1 {
+    background: #434d55;
+    color: #eee;
+}
+
+
+.content {
+    width: 800px;
+    padding: 0 1em;
+    margin: 150px auto;
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 27em) {
+    .codrops-icon {
+        font-size: 1.5em;
+    }
+    .codrops-icon span {
+        display: none;
+    }
+}
+
+
+.tooltip {
+    display: inline;
+    position: relative;
+    z-index: 999;
+    background-color: red;
+}
+
+/* Trigger text */
+
+.tooltip-item {
+    background: rgba(0,0,0,0.3);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+/* Gap filler */
+
+.tooltip-item::after {
+    content: '';
+    position: absolute;
+    width: 360px;
+    height: 20px;
+    bottom: 100%;
+    left: 50%;
+    pointer-events: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: yellow;
+}
+
+.tooltip:hover .tooltip-item::after {
+    pointer-events: auto;
+}
+
+/* Tooltip */
+
+.tooltip-content {
+    position: absolute;
+    z-index: 9999;
+    width: 360px;
+    left: 50%;
+    margin: 0 0 20px -180px;
+    bottom: 100%;
+    text-align: left;
+    font-size: 0.765em;
+    line-height: 1.4;
+    box-shadow: -5px -5px 15px rgba(48,54,61,0.2);
+    background: #2a3035;
+    opacity: 0;
+    cursor: default;
+    pointer-events: none;
+    min-height: 100px;
+}
+
+.tooltip-effect-1 .tooltip-content {
+    -webkit-transform: translate3d(0,-10px,0);
+    transform: translate3d(0,-10px,0);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+
+.tooltip:hover .tooltip-content {
+    pointer-events: auto;
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0) rotate3d(0,0,0,0);
+    transform: translate3d(0,0,0) rotate3d(0,0,0,0);
+}
+
+
+
+/* Arrow */
+
+.tooltip-content::after {
+    content: '';
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: #2a3035;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+/* Tooltip content*/
+
+.tooltip-content img {
+    position: relative;
+    height: 170px;
+    display: block;
+    float: left;
+    margin-right: 1em;
+}
+
+.tooltip-text {
+    font-size: 0.68em;
+    line-height: 1.35;
+    display: block;
+    padding: 1.31em 1.21em 1.21em 0;
+    color: #fff;
+}
+
+.tooltipJew {
+    display: inline;
+    margin-top: 100px;
+    position: relative;
+    z-index: 999;
+    background-color: red;
+}
+.tooltipJewItem{
+    background: rgba(0,0,0,0.3);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0 10px;
+    color: whitesmoke;
+    min-height: 50px;
+}
+.tooltipJewItem::after{
+    content: '';
+    position: absolute;
+    width: 360px;
+    height: 30px;
+    top: 100%;
+    left: 50%;
+    pointer-events: none;
+    -webkit-transform: translateX(-85%);
+    transform: translateX(-85%);
+    background-color: yellow;
+}
+.tooltipJew:hover .tooltipJewItem::after{
+    pointer-events: auto;
+}
+.tooltipJewContent {
+    position: absolute;
+    z-index: 9999;
+    width: 360px;
+    left: 50%;
+    margin: 0 0 20px -300px;
+    top: 100%;
+    text-align: left;
+    font-size: 0.765em;
+    line-height: 1.4;
+    box-shadow: -5px -5px 15px rgba(48,54,61,0.2);
+    background: #2a3035;
+    opacity: 0;
+    cursor: default;
+    pointer-events: none;
+    min-height: 100px;
+
+    -webkit-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+
+}
+.tooltipJew:hover .tooltipJewContent{
+    pointer-events: auto;
+    opacity: 1;
+    -webkit-transform: translate3d(0,10px,0) rotate3d(0,0,0,0);
+    transform: translate3d(0,10px,0) rotate3d(0,0,0,0);
+}
+.tooltipJewContent::after{
+    content: '';
+    top: -20px;
+    right: 50px;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-bottom-color: #2a3035;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,357 @@
+.post {
+    padding-left: 8px;
+
+}
+
+.post .entry-title a {
+    color: #454647;
+    font-family: Georgia;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.entry-content p:first-child a img {
+
+}
+
+.post h5 a, .post h5 {
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: RobotoRegular;
+    letter-spacing: 0.5px;
+    color: #24292f;
+}
+
+.post .entry-content p {
+    color: #777;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.singlePost footer.entry-footer {
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    background: none;
+    font-family: Trebuc;
+    color: #a4a4a4;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 10px 0px;
+
+}
+
+.singlePost footer.entry-footer .entry-meta a {
+    font-family: Trebuc;
+    color: #a4a4a4;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.singlePost footer i {
+    color: #454647;
+}
+
+.singlePost footer.entry-footer .entry-meta > span {
+    margin-right: 15px;
+}
+
+.singlePost footer.entry-footer > * {
+    margin-right: 18px;
+}
+
+/*----------------------------------*/
+
+.sitebar h1 {
+    color: #454647;
+    font-family: Georgia;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.sitebar ul {
+    color: #777;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    list-style: none url("../image/icon/arrow1.png") inside;
+    padding: 0px;
+
+}
+
+.sitebar ul a {
+    color: #777;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.sitebar {
+    padding-left: 20px;
+    margin-top: 190px;
+}
+
+.relatedPost h5 {
+    margin: 0px 12px;
+}
+
+.response .media {
+    margin-left: 50px;
+}
+
+.response article > .media {
+    margin-left: 0px;
+}
+
+.response article .pull-left p {
+    color: #454647;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 18px 0 0;
+
+}
+
+.response .media-body p {
+    min-height: 80px;
+    color: #777;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.response .media-body span {
+    float: right;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #454647;
+}
+
+.response .media-body span time a {
+    color: #454647;
+}
+
+.response .media-body span time {
+    margin-right: 30px;
+}
+
+.leave .form-group {
+    margin: 0 0 15px;
+
+}
+
+.leave .form-control {
+    border-radius: 0px;
+
+}
+
+.leave textarea {
+    resize: none;
+}
+
+.leave .btn {
+    padding: 10px 20px;
+    font-family: RobotoRegular;
+    color: white;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13px;
+    border-radius: 30px;
+}
+
+.comment {
+    background: #f8f8f8;
+    padding: 18px;
+    margin: 15px 0px;
+}
+
+.comment h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #454647;
+}
+
+.comment h4 span {
+    color: #5f3979;
+}
+
+.avatar {
+    float: left;
+    margin-right: 15px;
+}
+
+.coment-body {
+    min-height: 80px;
+}
+
+.coment-body p {
+    letter-spacing: 0.4px;
+}
+
+button {
+    float: right;
+}
+
+button a {
+    color: white;
+}
+
+.comment-list {
+    padding: 0px;
+}
+
+.comments {
+    padding: 0;
+    list-style: none;
+}
+
+.commentTemp {
+
+    background: #f8f8f8 none repeat scroll 0 0;
+    overflow: auto;
+    padding: 5px;
+    margin: 20px 0;
+}
+
+.commentTemp figure {
+
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.commentTemp figure figcaption {
+    color: #454647;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 18px 0 0;
+    text-transform: uppercase;
+}
+
+.commentTemp figure img {
+    display: block;
+
+    margin-bottom: 5px;
+}
+
+.commentTemp figure + p {
+    min-height: 70px;
+}
+
+.commentTemp p {
+    color: #777;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+    margin-bottom: 15px;
+    padding-right: 15px;
+
+}
+
+.commentTemp footer {
+    float: right;
+    color: #454647;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-right: 30px;
+
+}
+
+.commentTemp footer a {
+    color: #454647;
+    margin-left: 15px;
+}
+
+.comments {
+    max-width: 900px;
+}
+
+.comments article + ul {
+    padding-left: 50px;
+    list-style: none;
+}
+
+.comments article + ul .commentTemp {
+    margin: 5px 0;
+}
+
+.comment-respond{
+
+}
+.comment-respond .form-group{
+    margin: 0 0 15px;
+}.comment-respond .form-control{
+    border-radius: 0px;
+ }
+.comment-respond textarea{
+    resize: none;
+}
+
+.comment-respond .btn{
+    padding: 10px 20px;
+    font-family: RobotoRegular;
+    color: white;
+    margin: 15px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13px;
+    border-radius: 30px;
+    float: right;
+}
+.comment-respond .logged-in-as a{
+
+    color: #454647;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+.comment-respond .logged-in-as a:nth-child(2){
+    margin-left: 20px;
+}
+
+.relotedPostJew .related_post{
+    clear: both;
+    margin: 0;
+}
+.relotedPostJew .related_post>div{
+    position: relative;
+    padding: 0;
+    float: left;
+    width: 25%;
+}
+.relotedPostJew .related_post>div img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+}

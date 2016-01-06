@@ -1,0 +1,103 @@
+/* font-family: "georgia"; */
+@font-face {
+    font-family: "Georgia";
+    src : url("../fonts/Georgia/georgia.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "georgia-bold"; */
+@font-face {
+    font-family: "Georgia-bold";
+    src : url("../fonts/Georgia/georgia-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "georgia-bold-italic"; */
+@font-face {
+    font-family: "Georgia-bold-italic";
+    src : url("../fonts/Georgia/georgia-bold-italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "georgia-italic"; */
+@font-face {
+    font-family: "Georgia-italic";
+    src : url("../fonts/Georgia/georgia-italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "RobotoBold"; */
+@font-face {
+    font-family: "RobotoBold";
+    src: url("../fonts/Roboto/RobotoBold/RobotoBold.eot");
+    src: url("../fonts/Roboto/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Roboto/RobotoBold/RobotoBold.woff") format("woff"),
+    url("../fonts/Roboto/RobotoBold/RobotoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RobotoLight"; */
+@font-face {
+    font-family: "RobotoLight";
+    src: url("../fonts/Roboto/RobotoLight/RobotoLight.eot");
+    src: url("../fonts/Roboto/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Roboto/RobotoLight/RobotoLight.woff") format("woff"),
+    url("../fonts/Roboto/RobotoLight/RobotoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "RobotoMedium"; */
+@font-face {
+    font-family: "RobotoMedium";
+    src: url("../fonts/Roboto/RobotoMedium/RobotoMedium.eot");
+    src: url("../fonts/Roboto/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Roboto/RobotoMedium/RobotoMedium.woff") format("woff"),
+    url("../fonts/Roboto/RobotoMedium/RobotoMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RobotoRegular"; */
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("../fonts/Roboto/RobotoRegular/RobotoRegular.eot");
+    src: url("../fonts/Roboto/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Roboto/RobotoRegular/RobotoRegular.woff") format("woff"),
+    url("../fonts/Roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "Trebuc"; */
+@font-face {
+    font-family: "Trebuc";
+    src: url("../fonts/trebuc/trebuc.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "Trebuc Bold"; */
+@font-face {
+    font-family: "TrebucBold";
+    src: url("../fonts/trebuc/trebucbd.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "Trebuc Bold Italic"; */
+@font-face {
+    font-family: "TrebucBoldItalic";
+    src: url("../fonts/trebuc/trebucbi.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Trebuc Italic"; */
+@font-face {
+    font-family: "TrebucItalic";
+    src: url("../fonts/trebuc/trebucit.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

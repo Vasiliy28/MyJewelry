@@ -1,0 +1,156 @@
+.clogau{
+    margin-bottom: 50px;
+}
+.clogau header h1{
+    color: #454647;
+
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 56px;
+    margin: 50px 0px 25px;
+}
+.clogau header p{
+    color: #24292f;
+    font-family: RobotoLight;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.clogau {
+    padding-left: 10px;
+}
+.clogau> header{
+    width: 45%;
+
+}
+.download .thumbnail h5{
+    color: #24292f;
+    font-family: RobotoRegular;
+    line-height: 24px;
+    text-align: center;
+}
+.download .thumbnail .caption p{
+    color: #24292f;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: RobotoLight;
+    text-align: center;
+}
+.download .thumbnail .caption p:nth-child(2){
+
+}
+.download .thumbnail p > a{
+    color: #5f3979;
+    font-size: 14px;
+    font-family: RobotoRegular;
+
+}
+.download div:nth-child(1) .thumbnail .caption p{
+    text-align: start;
+}
+.download div:nth-child(1) .thumbnail h5{
+    text-align: start;
+}
+.download div:nth-child(1) .thumbnail .caption p:nth-child(2){
+    margin-left: 35px;
+}
+.rightCogau{
+    position: relative;
+    margin-bottom: 100px;
+}
+.rightCogau div{
+    height: 140px;
+    background-color: #e7ca9f;
+    width: 225px;
+    position: absolute;
+    bottom: -80px;
+    left: 0px;
+    padding: 22px 10px;
+}
+.rightCogau div p{
+    text-align: center;
+}
+.rightCogau div p:nth-child(1){
+    color: #937e5f;
+    font-size: 29px;
+    line-height: 25px;
+}
+.rightCogau div p:nth-child(2){
+    color: #806e53;
+    font-size: 35px;
+    line-height: 40px;
+}
+.rightCogau div p:nth-child(3){
+    color: white;
+    font-size: 17px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+.request h1{
+    color: #454647;
+
+    font-weight: 400;
+    line-height: 56px;
+}
+.request p{
+    color: #666;
+    font-family: RobotoRegular;
+    font-size: 14px;
+   font-style: italic;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.checkbox input[type=checkbox] {
+    background-color: #f1f1f1;
+    border: 1px solid #dfdfdf;
+}
+
+.checkbox {
+    position:relative;
+    color: #333;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.checkbox input[type=checkbox] {
+    display:none;
+}
+.checkbox label:after {
+    content:'';
+    display:inline-block;
+    height:10px;
+    width:10px;
+
+    position:absolute;
+    top:10px;
+    left:0;
+    background-color: #f1f1f1;
+    border: 1px solid #dfdfdf;
+}
+.checkbox input[type=checkbox]:checked + label:after {
+    content:'';
+    background-color:#e3e3e3 ;
+    border: 1px solid #a2a2a2;
+}
+
+.request .form-group{
+    margin: 0 0 15px;
+
+}
+.form-group label{
+
+    position: absolute;
+}
+
+.form-control>input{
+
+    width: 70%;
+}
+.form-group >div> select{
+    float: right;
+}
+
+
+

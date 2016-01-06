@@ -1,0 +1,82 @@
+.wrapperTopContent {
+    padding-bottom: 85px;
+}
+
+.jewelleryService header h1 {
+    color: #454647;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 56px;
+    margin: 55px 0 25px 5px;
+}
+
+.jewelleryService h5,
+.ourService h5 {
+    font-family: RobotoRegular;
+    font-weight: 400;
+    color: #24292f;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+}
+
+.jewelleryService p ,
+.ourService p{
+    color: #777777;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    padding-right: 20px;
+}
+
+.jewelleryService .caption h5:nth-child(1) {
+    margin-top: 40px;
+}
+
+.jewelleryService .caption p:nth-child(2) {
+    margin-top: 10px;
+}
+
+.jewelleryService figure a {
+    float: right;
+}
+
+.jewelleryService figure ul {
+    list-style: none url("../image/icon/arrow1.png");
+    color: #777;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.jewelleryService figure img ,
+.ourService figure img{
+    margin: 0;
+}
+
+.jewelleryService .btn {
+    margin-right: 40px;
+}
+
+.wrapperDownContent {
+    padding-bottom: 120px;
+}
+
+.ourService header h2 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.ourService h5 {
+    margin: 20px 0;
+}
+
+.ourService p:nth-child(2) {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,97 @@
+.info ul {
+    list-style: none;
+}
+
+.info > ul > li:nth-child(1) {
+    list-style-image: url("../image/icon/iconCheck.png");
+    color: #333;
+    font-family: RobotoRegular;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info > ul > li:nth-child(2) {
+    list-style-image: url("../image/icon/iconPhone.png");
+}
+
+.info > ul > li:nth-child(3) {
+    list-style-image: url("../image/icon/iconEmail.png");
+}
+
+.info > ul > li:nth-child(4) {
+    list-style-image: url("../image/icon/iconClock.png");
+}
+
+.info ul li:nth-child(4) ul {
+    padding: 0px;
+}
+
+.info {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 35px;
+    width: 55%;
+}
+
+.content h1 {
+    color: #454647;
+    font-family: Georgia;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.contactForm input, .contactForm textarea {
+    padding-left: 38px;
+
+}
+
+.contactForm .form-control-feedback {
+    left: 2px;
+    top: 3px;
+}
+
+.contactForm .form-control-feedback i {
+    color: #ededed;
+    font-size: 20px;
+}
+
+.contactForm .form-control {
+
+    line-height: 20px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 15px;
+    border-radius: 0px;
+}
+
+.contactForm fieldset > div:nth-child(-n+2) > div:nth-child(1) {
+    padding-right: 20px;
+}
+
+.contactForm textarea {
+    resize: none;
+}
+
+.contactForm .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.contactForm .btn {
+    font-family: RobotoRegular;
+}
+
+.contactForm .btn-default {
+    padding-left: 15px;
+}
+
+.buttons {
+    float: right;
+}
+.wpcf7-form p:empty,.wpcf7-form br{
+    display: none!important;
+}
